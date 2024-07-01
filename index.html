@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <meta name="description" content="Portofolio Ammar Nur Hidayah, showcasing projects and feedback.">
+    <meta name="keywords" content="portfolio, projects, Ammar Nur Hidayah, web development">
+    <meta name="author" content="Ammar Nur Hidayah">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Ammar Nur Hidayah</h1>
+        <div class="social-icons">
+            <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ammar_hdyh/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="about-photo">
+            <img src="photo.jpg" alt="Foto Ammar Nur Hidayah">
+        </div>
+        <div class="about-content">
+            <h2>Tentang Saya</h2>
+            <p>Haii nama saya Ammar Nur Hidayah, saya asal dari banten dan bersekolah di <a href="https://sman1kramatwatu.sch.id" target="_blank">SMAN 1 Kramatwatu</a>, ini adalah portofolio awalku mungkin kedepannya akan berkembang, mohon dukungannya yaaaa</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" id="project1">
+            <h3>Project 1</h3>
+            <div class="project-details">
+                <p>Untuk proyek pertama saya yaitu membuat kalkulator, tapi kalkulator yang dimaksud adalah kalkulator yang akan membantu kalian ketika mengerjakan persoalan matematika seperti kombinasi, permutasi dan faktorial</p>
+                <button class="project-link" id="project1-link-btn">Lihat Proyek</button>
+                <div class="link-options" id="project1-links">
+                    <a href="https://ammarnh.github.io/HALO/" target="_blank">Permutasi dan Faktorial</a>
+                    <a href="https://ammarnh.github.io/KOMBINASI/" target="_blank">Kombinasi</a>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="project2">
+            <h3>Project 2</h3>
+            <div class="project-details">
+                <p>Coming Soon!!!</p>
+                <!-- Removed project link button for Proyek 2 -->
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form id="feedback-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="feedback-results">
+            <h3>Feedbacks</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ammarnh</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
